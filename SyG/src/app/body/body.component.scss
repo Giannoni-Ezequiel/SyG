@@ -1,19 +1,35 @@
-
-element.style {
-    background-color: rgb(34, 34, 34);
-}
-
-*, :after, :before {
-    box-sizing: border-box;
-    border: 0 solid;
-}
-
-section {
-    padding-top: 150px;
-    position: relative;
-    padding-bottom: 2.5em;
+.row
+{
+    background: radial-gradient(circle, rgb(178, 198, 238) 0%, rgba(217, 223, 230, 0.226) 100%);
     text-align: center;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
+    background: #333333;
+}
+
+.div
+{
+    text-align: center;
+}
+
+p 
+{
+    color:#fff;
+}
+
+h3 
+{
+    color:#fff;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    //background: url('../../../assets/abc.png');
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: text 7.5s linear infinite;
+}
+
+@keyframes text 
+{
+    from { background-position: 0% 50%; }
+    to { background-position: 100% 100%; }
 }

@@ -13,6 +13,7 @@ import { BodyComponent } from './body/body.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { EmprendimientosComponent } from './emprendimientos/emprendimientos.component';
+import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EmprendimientosComponent } from './emprendimientos/emprendimientos.comp
     BodyComponent,
     ContactoComponent,
     ProyectoComponent,
-    EmprendimientosComponent
+    EmprendimientosComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,

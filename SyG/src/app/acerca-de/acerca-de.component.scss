@@ -1,0 +1,98 @@
+.row
+{
+    padding: 20px;
+    background: radial-gradient(circle, rgba(45,67,86,1) 0%, rgba(137,170,195,1) 100%);
+    background:#000000B3;
+}
+
+.div
+{
+    text-align: center;
+}
+
+p 
+{
+    color:#fff;
+}
+
+h1 
+{
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    //background: url('../../../assets/abc.png');
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 7.5s linear infinite;
+}
+
+@keyframes text 
+{
+    from { background-position: 0% 50%; }
+    to { background-position: 100% 100%; }
+}
+
+/*Etiqueta nombre*/
+#nombre
+{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/*Etiqueta cargo*/
+#cargo 
+{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 1%;
+        top: 98px;
+        /*font-weight: bold;*/
+        margin-top: 250px;
+    }
+}
+@media (max-width: 991.98px){
+    #fotodeperfil{
+        /*position: absolute;*/
+        width: 37%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey;
+        left: 33%;
+        top: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -184px;
+    }
+}
+@media (max-width: 992px){
+    #fotodeperfil{
+        /*position: absolute;*/
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey;
+        left: 33%;
+        top: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    #nombre {
+        text-align: center;
+    }
+    #cargo {
+        text-align: center;
+    }
+}
