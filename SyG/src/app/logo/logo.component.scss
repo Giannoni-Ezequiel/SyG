@@ -1,0 +1,22 @@
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.logo {
+    height:100px;
+    top: 50%;
+    left: 50%;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: auto; 
+    max-height: 70%;
+    border-radius: 80%;
+   }
