@@ -1,17 +1,22 @@
 .jumbotron
   {
-
     text-align: center;
   }
-.container {
+
+.container 
+{
   text-align: center;
 }
-#img-1 {
+
+#img-1 
+{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-body {
+
+body 
+{
   padding-top: 150px;
   position: relative;
   padding-bottom: 2.5em;
@@ -21,13 +26,22 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-section {
 
-  background-color: #1111 opacity 20%;
+.wrap
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0.5)), url(../../assets/foto.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-img {
-
-  width: 1430px;
-  height: 749px;
+.wrap-texto
+{
+  color: #fff;
+  text-align: center;
+  width: 50%;
 }
