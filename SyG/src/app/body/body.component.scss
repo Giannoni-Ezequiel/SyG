@@ -1,37 +1,42 @@
 section
 {
     display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(34, 34, 34);
-  }
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1c1e;
+    height: 40vh;
 
-
-.div
-{
-    text-align: center;
 }
 
 p 
 {
+    font-family: "Times New Roman", Times, serif;
     color:#fff;
+    font-size: 1.9em;
+    letter-spacing: 1px;
+    line-height : 30px;
+}
+
+.container
+{
+    text-justify: center;
+    text-align: center;
+    align-items: center;
+    width: 80vh;
 }
 
 h3 
 {
     color:#fff;
-    font-size: 2em;
-    letter-spacing: 1px;
+    font-size: 2.6em;
+    letter-spacing: 2px;
+    line-height : 40px;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    //background: url('../../../assets/abc.png');
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: text 7.5s linear infinite;
-}
+    font-family: "Times New Roman", Times, serif;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+        overflow: auto;
 
-@keyframes text 
-{
-    from { background-position: 0% 50%; }
-    to { background-position: 100% 100%; }
 }
