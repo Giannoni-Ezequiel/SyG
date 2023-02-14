@@ -1,24 +1,16 @@
-img 
-{
-    
-    max-width: 1000px;
-    max-height: 800px;
-    padding: 5%;
-    border-radius: 10px;
-}
-
-.container
-{
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #1b1c1e;
-}
-
-section
-{
-    display: flex;
-  justify-content: space-around;
+.container{
+  background-color: #333333;
+  height: 75vh;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
   align-items: center;
-  background-color: rgb(34, 34, 34);
-  }
+}
+
+img{
+  position: relative;
+  width: 80vh;
+  height: 56vh;
+  border-radius:5%;
+
+} 
