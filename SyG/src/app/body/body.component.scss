@@ -1,9 +1,11 @@
-.row
+section
 {
-    background: radial-gradient(circle, rgb(178, 198, 238) 0%, rgba(217, 223, 230, 0.226) 100%);
-    text-align: center;
-    background: #333333;
-}
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  }
+
 
 .div
 {
