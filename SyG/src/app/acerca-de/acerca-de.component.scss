@@ -5,20 +5,14 @@ img
     max-height: 800px;
     padding: 5%;
     border-radius: 10px;
+
 }
 
-.container
-{
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #1b1c1e;
-}
 
 section
 {
     display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(34, 34, 34);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
   }
