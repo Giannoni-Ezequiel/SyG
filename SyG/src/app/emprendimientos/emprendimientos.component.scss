@@ -1,23 +1,73 @@
-section
-{
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(34, 34, 34);
-  }
-
-#logo {
-    display:flex;
-    justify-items: center;
-    align-items: center;
+.texto-blanco{
+  color: white;
 }
 
-img {
-    width: auto; 
-    max-height: 70%;
-    border-radius: 80%;
-   }
+.centrado{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
 
-* div {
-  padding: 20px;
+
+
+.texto1{
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto2{
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  height: 10vh;
+  padding: 0 20%;
+}
+/* Experiencia */
+
+.experiencia{
+  padding: 40px 40px 60px 40px;
+  background-color: #333333;
+  justify-content: space-between;
+}
+
+.caja{
+  background-color: white;
+}
+
+.experiencia .columna {
+  padding: 25px; 
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia i{
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge{
+  margin: 5px;
 }
