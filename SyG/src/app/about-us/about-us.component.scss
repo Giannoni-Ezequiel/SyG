@@ -1,39 +1,189 @@
-section{
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+section
+{
     background-color: #222222;
-    height: 35vh;
-    padding: 10px;
-    padding: 0 50px;
+}
+
+#cabecera
+{
+  height: 10vh;
+  top: 0;
+}
+
+#pie
+{
+  height: 10vh;
+}
+
+#central
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.columna
+{
+  padding: 0.2vh;
+  height: 40vh;
+  text-align: right;
+}
+
+#uno
+{
+  flex-basis: 10%;
+}
+
+#dos 
+{
+  background-color: rgba(0, 0, 0, 0);
+  flex-basis: 80%;
+  color:rgb(247, 243, 243);
+  text-align: left;
+}
+
+#tres
+{
+  flex-basis:10%;
 }
 
  p 
-{
-    font-size: 1.5rem;
-    font-family: 'Mulish', sans-serif;
-    color:rgb(255, 255, 255);
-    text-align: right;
-    justify-content: center;
-    margin: 0;
-    word-wrap: break-word;
-    letter-spacing: 0.1vh;
-    line-height: 100%;
-}
+    {
+        font-size: 1.5rem;
+        font-family: 'Mulish', sans-serif;
+        color:rgb(255, 255, 255);
+        text-align: right;
+        justify-content: center;
+        letter-spacing: 0.1vh;
+        line-height : 30px;
+        height: 85%;
+    overflow: auto;
+    }
 
-.text 
-{
-    word-wrap: break-word;
-}
-
-section h2
+ h2
 {
     font-size: 2rem;
-    padding: 15px 0px;
-    margin: 0;
+    height: 15%;
 }
 
-.letras
+@media screen and (max-width: 1200px)
 {
-    color:rgb(247, 243, 243);
-    text-align: left;
-    word-wrap: break-word;
+
+    h2
+    {
+    flex-basis: 20%;
+    }
+
+    p
+    {
+    padding: 3vh;
+    line-height: 7vh;
+    }
+
 }
 
+@media screen and (max-width: 992px)
+{
+
+    h2
+    {
+        flex-basis: 20%;
+    }
+    p
+    {
+    padding: 4vh;
+    line-height: 5vh;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+  #central
+    {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  #cabecera
+    {
+      height: 10vh;
+    }
+
+    h2
+    {
+      font-size: 2rem;
+      line-height: 12vh;
+      text-align: center;
+      flex-basis: 80%;
+    }
+
+    p
+    {
+      font-size: 1.2rem;
+      padding: 8vh;
+      text-align: center;
+      line-height: 5.7vh;
+      flex-basis: 20%;
+    }
+
+}
+
+@media screen and (max-width: 480px)
+{
+  #central
+    {
+      flex-direction: column;
+      display: flex;
+    }
+    
+  #dos 
+    {
+      flex-basis: 80%;
+      order: 2;
+      align-items: center;
+    }
+
+  h2
+  {
+    flex-basis: 20%;
+    line-height: 13vh;
+  }
+
+  p
+  {
+    padding: 8vh;
+    font-size: 1.0rem;
+    line-height: 5vh;
+    display: flex;
+    flex-basis: 80%;
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  #cabecera
+  {
+    height: 10vh;
+    top: 0;
+    z-index: 2;
+  }
+
+  h2
+  {
+    line-height: 13vh;
+  }
+
+  p
+  {
+    padding: 8vh 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.0001vh;
+    display: flex;
+  }
+}

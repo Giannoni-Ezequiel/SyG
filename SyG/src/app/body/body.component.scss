@@ -17,9 +17,7 @@ section
 #cabecera
 {
   height: 20vh;
- // position: sticky; /*Mantiene la cabecera */
   top: 0;
-  z-index: 2;
 }
 
 #pie
@@ -43,20 +41,17 @@ section
 #uno
 {
   flex-basis: 10%;
-  order:1;
 }
 
 #dos 
 {
   background-color: rgba(0, 0, 0, 0);
   flex-basis: 80%;
-  order: 2;
 }
 
 #tres
 {
   flex-basis:10%;
-  order: 3;
 }
 
 p 
